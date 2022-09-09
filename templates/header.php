@@ -1,8 +1,14 @@
 <?php 
 require_once('globals.php');
-require_once('bd.php'); 
+require_once('bd.php');
+require_once('models/Message.php'); 
 
-    $flassMessage = [];
+    $message = new Message($base_url);
+    $flassMessage = $message->getMessage();
+
+    if(!empty($flassMessage['msg'])) {
+        $message->clearMessage();
+    }
 ?>
 
 <!doctype html>
