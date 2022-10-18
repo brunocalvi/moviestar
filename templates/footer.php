@@ -1,26 +1,28 @@
 <footer id="footer">
-    <div id="social-container">
-        <ul>
-            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
-    </div>
-
-    <div id="footer-links-container">
-        <ul>
-            <li><a href="#">Adicionar Filme</a></li>
-            <li><a href="#">Adicionar Critica</a></li>
-            <li><a href="#">Entrar / Cadastrar</a></li>
-        </ul>
-    </div>
-
-    <p>&copy; 2020 Hora de Codar</p>
-    
-</footer>
-    <!--bootstrap js -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+        <div id="social-container">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div id="footer-links-container">
+            <ul>
+                <li><a href="#">Adicionar filme</a></li>
+                <li><a href="#">Adicionar crítica</a></li>
+                <li><a href="#">Entrar / Registrar</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2020 Hora de Codar</p>
+    </footer>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.js" integrity="sha512-KCgUnRzizZDFYoNEYmnqlo0PRE6rQkek9dE/oyIiCExStQ72O7GwIFfmPdkzk4OvZ/sbHKSLVeR4Gl3s7s679g==" crossorigin="anonymous"></script>
+</body>
 </html>
